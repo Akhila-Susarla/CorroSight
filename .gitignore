@@ -1,0 +1,42 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ── Virtual Environment ──────────────────────────────────────────────────────
+backend/venv/
+venv/
+.venv/
+env/
+
+# ── Environment Variables / Secrets ──────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+
+# ── Generated Output ─────────────────────────────────────────────────────────
+backend/data/ILI_Analysis_Results.xlsx
+backend/data/uploaded_*.xlsx
+
+# ── Node / Angular ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.angular/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride

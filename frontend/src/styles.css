@@ -1,0 +1,76 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.page-container {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #1a237e;
+}
+
+.cards-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.chart-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.chart-row > * {
+  flex: 1;
+  min-width: 400px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 16px 0 12px 0;
+  color: #37474f;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  margin-bottom: 16px;
+}
+
+.chart-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #455a64;
+}
+
+.table-container {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.full-width-table {
+  width: 100%;
+}
